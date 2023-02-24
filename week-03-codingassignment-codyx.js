@@ -176,7 +176,7 @@ let twoArrays = (array1,array2) => { // created two loops to iterate through eac
 //i'm always forgetting how many days are in a certain month. Why not make a function that will tell me? 
 
 let daysOfTheMonth = (month) => { //switch loop to group the months into how many days. 
-    daysRes= '';
+    daysRes= ''; // I was getting an undefined when I used console.log inside the switch statement. I did some research and decided to declare an empty string variable and assign it values inside the switch cases.
     switch (month){
         
         case 'April':
