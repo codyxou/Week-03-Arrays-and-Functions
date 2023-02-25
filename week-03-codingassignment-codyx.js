@@ -204,8 +204,8 @@ let daysOfTheMonth = (month) => { //switch loop to group the months into how man
         return daysRes;
 };
 
-console.log(daysOfTheMonth('February')); //Returns 28 days 
-console.log(daysOfTheMonth('September'));//returns 30 days
-console.log(daysOfTheMonth('April'));//returns 30 days
-console.log(daysOfTheMonth('Month'));//returns default
+console.log(daysOfTheMonth('December')); //Returns 28 days 
+// console.log(daysOfTheMonth('September'));//returns 30 days
+// console.log(daysOfTheMonth('April'));//returns 30 days
+// console.log(daysOfTheMonth('Month'));//returns default
 
